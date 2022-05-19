@@ -366,7 +366,8 @@ h4:hover{
 }
 @media only screen and (max-width: 770px) {
     .submit{
-        margin-left: 197.5px;
+@media only screen and (max-width: 445px) {
+    .displey-flex{
     }
 }
 @media only screen and (max-width: 575px) {
