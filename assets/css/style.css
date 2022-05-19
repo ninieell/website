@@ -302,7 +302,6 @@ h4:hover{
     border:#23A6F0; 
     color: #23A6F0;
 }
-@media only screen and (max-width: 572px) {
 @media only screen and (max-width: 575px) {
     .justify-center{
         display: flex;
@@ -334,7 +333,6 @@ h4:hover{
     color: #FFFFFF;
 }
 .input-div{
-    width: 688px;
     height: 58px;
     background-color: white;
     border-radius: 7px;
@@ -346,17 +344,12 @@ h4:hover{
 }
 .email{
     border: none;
-    margin-top: 17px;
 }
 .submit{
     border: none;
     background-color: #23A6F0;
     color: white;
     min-height: 58px;
-    border-radius: 7px;
-    left: 88.1%;
-    overflow: hidden;
-    margin-left: 375.5px;
     margin-top: 0px;
 }
 @media only screen and (max-width: 770px) {
@@ -364,14 +357,9 @@ h4:hover{
         display: none;
     }
 }
-@media only screen and (max-width: 770px) {
-    .submit{
 @media only screen and (max-width: 445px) {
     .displey-flex{
     }
 }
-@media only screen and (max-width: 575px) {
-    .submit{
-        margin-left: 231.5px;
     }
 }
