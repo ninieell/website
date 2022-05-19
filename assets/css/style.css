@@ -303,6 +303,7 @@ h4:hover{
     color: #23A6F0;
 }
 @media only screen and (max-width: 572px) {
+@media only screen and (max-width: 575px) {
     .justify-center{
         display: flex;
         justify-content: center;
