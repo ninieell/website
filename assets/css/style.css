@@ -45,6 +45,9 @@ h1{
     line-height: 80px;
     letter-spacing: 0.2px;
 }
+h1:hover{
+    color: #23A6F0;
+}
 .p-Home{
     color: white;
     margin-top: 30px;
@@ -69,8 +72,7 @@ h1{
 .btn2:hover{
     background-color: #23A6F0;
     color: white;
-}
-hr{
+}.black{
     background-color: black;
 }
 .section-p{
@@ -89,6 +91,9 @@ h2{
     line-height: 50px;
     letter-spacing: 0.2px;
     margin-top: 10px;
+}
+h2:hover{
+    color: #23A6F0;
 }
 .section-p2{
     font-weight: 400;
@@ -114,6 +119,12 @@ h2{
     gap: 20px;
     margin-top: 118px;
 }
+.card2:hover{
+    background-color:#23A6F0;
+}
+.card1:hover{
+    background-color: #23A6F0;
+}
 .red{
     width: 70px;
     height: 76px;
@@ -137,4 +148,211 @@ h2{
     letter-spacing: 0.2px;
     color: #737373;
     margin-top: 20px;
+}
+.banner-color{
+    background-color: #23A6F0;
+    height: 200px;
+    margin-top: 80px;
+}
+.banner-text{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 45px;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+.banner-sm-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+.banner-row{
+    padding-top: 70px;
+    padding-left: 130px;
+}
+.courses{
+    margin-top: 150px;
+}
+.red-line{
+    width: 94px;
+    height: 7px;
+    background: #E74040;
+}
+.course-section{
+    margin-top: 120px;
+    padding-left: 100px;
+}
+.course-header{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+.course-p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 35px;
+}
+.link{
+    margin-top: 35px;
+}
+H4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 143px;
+    color: white;
+    margin-top: 130px;
+}
+h4:hover{
+    color: #23A6F0;
+}
+.about-h{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    margin-top: 160px;
+}
+.about-h:hover{
+    color: #23A6F0;
+}
+.white{
+    background-color: white;
+}
+.about-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: white;
+    margin-top: 45px;
+}
+.about-pp{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #23A6F0;
+    margin-top: 45px;
+}
+.about-button{
+    width: 165px;
+    height: 55px;
+    background:#252B42; ;
+    border: 1px solid #23A6F0;
+    color: #23A6F0;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.about-button:hover{
+    background-color: #23A6F0;
+    color: white;
+
+}
+.displey-flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.teacher-p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5303px;
+    line-height: 16px;
+    color: #252B42;
+}
+.teacher{
+    background-color: #23A6F0;
+    margin-top: 100px;
+}
+.teacher-image{
+    margin-left: 40px;
+}
+.teacher1{
+    margin-right: 30px;
+}
+.teacher-h{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17.3961px;
+    line-height: 21px;
+    color: #252B42;
+}
+.teacher-button{
+    width: 116.94px;
+    height: 33.83px;
+    background-color: #23A6F0;
+    border: 1px solid #252B42;
+    border-radius: 5px;
+}
+.teacher-button:hover{
+    background-color: #252B42;
+    border:#23A6F0; 
+    color: #23A6F0;
+}
+@media only screen and (max-width: 572px) {
+    .justify-center{
+        display: flex;
+        justify-content: center;
+    }
+}
+.practice{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #23A6F0;
+    margin-top: 260px;
+}
+.join{
+    ont-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.problems{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.input-div{
+    width: 688px;
+    height: 58px;
+    background-color: white;
+    border-radius: 4px;
+}
+.text-align{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.email{
+    border: none;
+    margin-top: 17px;
+}
+.submit{
+    border: none;
+    background-color: #23A6F0;
+    color: white;
+    min-height: 58px;
+    border-radius: 4px;
+    margin-left: 54.5%;
+    overflow: hidden;
 }
